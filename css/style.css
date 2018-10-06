@@ -46,16 +46,45 @@ figure img.photo {
 	list-style-type: none;
  }
 
- /*header {
-	font-size: 20px;
-	font-weight: bold;
-	font-style: italic;
- }*/
-
  section {
 	margin: 15px;
 }
 
 section li {
 	padding-left: 10px;
+}
+
+section p {
+	padding-left: 10px;
+}
+
+/* --- */
+
+nav {
+	width:1024px; 
+	margin:0 auto; 
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(116, 214, 231);
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color:  rgb(111, 206, 223);
 }
