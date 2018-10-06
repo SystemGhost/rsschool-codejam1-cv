@@ -41,3 +41,7 @@ figure img.photo {
 		 vertical-align: middle;
 		 width: 30%;	 
  }
+
+ section ul {
+	list-style-type: none;
+ }
