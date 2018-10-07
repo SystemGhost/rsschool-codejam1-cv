@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: white;
+}
+
+main {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+figure img.photo {
+  display: block;
+  margin: 0 auto;
+  padding: 1% 0;
+  border-radius: 50%;
+}
+
+figcaption {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+figcaption:before,
+figcaption:after {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  height: 1px;
+  background-color: #000;
+  content: "";
+  vertical-align: middle;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+section {
+  margin: 15px;
+}
+
+section li {
+  padding-left: 10px;
+}
+
+section p {
+  padding-left: 10px;
+}
+
+nav {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(231, 231, 231);
+  list-style-type: none;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+nav li a:hover {
+  background-color: rgb(223, 223, 223);
+}
